@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{deep_merge}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
-  s.authors = ["Steve Midgley"]
-  s.date = %q{2011-07-28}
+  s.authors = ["Maxime VISONNEAU"]
+  s.date = %q{2016-02-22}
   s.description = %q{Recursively merge hashes. Now works with Ruby 1.9 and ActiveSupport}
-  s.email = %q{dan@kallistec.com}
+  s.email = %q{maxime@medallia.com}
   s.license = 'MIT'
   s.extra_rdoc_files = [
     "README.md"
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     "lib/deep_merge/rails_compat.rb",
     "test/test_deep_merge.rb"
   ]
-  s.homepage = %q{http://github.com/danielsdeleo/deep_merge}
+  s.homepage = %q{http://github.com/mvisonneau/deep_merge}
   s.require_paths = ["lib"]
   s.summary = %q{Merge Deeply Nested Hashes}
   s.test_files = [
@@ -32,4 +32,3 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake", "~> 10.1"
 
 end
-
